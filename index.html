@@ -3,11 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family: 'Merriweather', serif;
+        }
+
+        .error-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .error-wrapper > .error_heading {
+            margin-bottom: 42px;
+        }
+        img {
+            width: 50%;
+        }
+
+    </style>
+
+
+
+
 </head>
 <body>
-    <h1>Hi Flexbox</h1>
+    <div class="error-wrapper">
+        <div class="error_heading">
+            <h2>yikes... Who knows that page will be availble, would you like to try another?</h2>
+        </div>
 
-<p>some content</p>
+
+        <img src="tbot.png" alt="">
+    </div>
+
+
 
 </body>
 </html>
