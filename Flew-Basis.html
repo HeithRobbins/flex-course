@@ -39,16 +39,22 @@
         /* think of basis like your starting point for the width (think of the amount of the px used is how much bigger it will be then the others)*/
         .block1 {
             flex-basis: 400px;
+            /* flex-grow: 4; */
+            /* using shrink you will need to have a basis but with flex-grow dosent need to us basis (because with shrink is going off of the speed of how fast it shrink "just like the oppisite of grow")*/
+            flex-shrink: 2;
         }
 
         .block2 {
             flex-basis: 100px;
+            /* flex-grow: 1; */
+            flex-shrink: 1;
         }
 
         .block3 {
             flex-basis: 200px;
+            /* flex-grow: 2; */
+            flex-shrink: 1;
         }
-
 
     </style>
 </head>
